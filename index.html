@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keyword" content="">
+        <meta name="author" content="">
+        
+        <title>Hortifrute</title>
+
+ 
+
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+        <link rel="stylesheet" href="css/mobile.css" type="text/css" media="all">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" >
+        
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Hortifrute</a>
+            <nav class="navbar">
+                <a href="#home">    Home        </a>
+                <a href="#recursos">Recursos</a>
+                <a href="#produtos">Produtos    </a>
+                <a href="#categorias">Categorias</a>
+                <a href="#review">Avaliações</a>
+                <a href="#blogs">    Blogs        </a>
+				<a href="#footer">    Contato        </a>
+            </nav>
+            <div class="icons">
+                <div class="fas fa-bars"     id="menu-btn"></div>
+                <div class="fas fa-search"     id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-user"     id="login-btn"></div>
+				</div>
+            <form method="post" action="busca.php" class="search-form">
+                <input name="busca" type="search" id="search-box" 
+                placeholder="pesquise aqui ...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="shopping-cart">
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="imagem/produtos/melancia.png"  alt="Melancia">
+                    <div class="content">
+                        <h3>Melancia</h3>
+                        <span class="preco">R$ 14,99 -</span>
+                        <span class="quantidade">qtd : 1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="imagem/produtos/melancia.png" alt="Melancia">
+                    <div class="content">
+                        <h3>Melancia</h3>
+                        <span class="preco">R$ 14,99 -</span>
+                        <span class="quantidade">qtd : 1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="imagem/produtos/melancia.png" alt="Melancia">
+                    <div class="content">
+                        <h3>Melancia</h3>
+                        <span class="preco">R$ 14,99 -</span>
+                        <span class="quantidade">qtd : 1</span>
+                    </div>
+                </div>
+                <br>
+                <div class="total">Total: 45,00</div>
+                <a href="#" class="btn">Finalizar compra</a>
+            </div>
+            <form method="post" action="login.php" class="login-form">
+                <h3>Área de login</h3>
+                <input type="email" name="_login" 
+                placeholder="Digite seu e-mail" class="box" required>
+                <input type="senha" name="_senha" 
+                placeholder="Digite sua senha" class="box" required>
+                <p>Esqueceu a senha? <a href="redefinir.html"> Clique Aqui</a></p>
+                <p>Não tem uma conta? <a href="cadastro.html"> Criar Agora</a></p>
+                <input type="submit" value="Enviar" class="btn">
+                <input type="cancel" value="Cancelar" class="btn">
+            </form> 			
+        </header>
+        <main>
+        <!-- Header scetion ends -->
+			
+			<!-- Home sction starts -->
+			
+			<section class="home" id="home">
+				<div class="content">
+					<h3>Produtos <span>organicos</span> e frescos</h3>
+					<p>Venha conhecer nossa variedade de alimentos.</p>
+					<a href="#" class="btn-banner">Comprar agora</a>
+				</div>
+			</section>
+			
+			<!-- Home section ends -->
+			
+			<!-- recursos  section starts -->
+			
+			<section class="recursos" id="recursos">
+				<h1 class="heading">Nossos <span>recursos</span></h1>
+				
+				<div class="box-container">
+					
+					<div class="box">
+						<img src="imagem/recursos/feature-img-1.png" alt="">
+						<h3>Organico e fresco</h3>
+						<p>Alimentos frescos de alta qualidade, selecionado com todo carinho para sua mesa</p>
+						<a href="#" class="btn">Mais informações</a>
+					</div>
+					
+					<div class="box">
+						<img src="imagem/recursos/feature-img-2.png" alt="">
+						<h3>Entrega grátis</h3>
+						<p>Entregamos em todas regiões do Brasil</p>
+						<a href="#" class="btn">Mais informações</a>
+					</div>
+					
+					<div class="box">
+						<img src="imagem/recursos/feature-img-3.png" alt="">
+						<h3>Fomas de pagamento</h3>
+						<p>Aceitamos as principais bandeiras do mercado</p>
+						<a href="#" class="btn">Mais informações</a>
+					</div>
+					
+				</div>
+				
+			</section>
+			
+			<!-- recursos  section ends -->
+			
+			<!-- produtos section starts -->
+			
+			<section class="produtos" id="produtos">
+			
+				<h1 class="heading"> Nossos <span> produtos </span> </h1>
+				
+				<div class="product-slider">
+				
+					<div class="wrapper">
+					
+						<div class="box">
+							<img src="imagem/produtos/produto-1.png" alt="">
+							<h3> Laranja fresca</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-2.png" alt="">
+							<h3> Cebola fresca</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-3.png" alt="">
+							<h3> Carne fresca</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-4.png" alt="">
+							<h3> Repolho fresco</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+					
+					</div>
+				
+				</div>
+				
+				<div class="product-slider">
+				
+					<div class="wrapper">
+					
+						<div class="box">
+							<img src="imagem/produtos/produto-5.png" alt="">
+							<h3> Batata fresca</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-6.png" alt="">
+							<h3> Abacate fresco </h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-7.png" alt="">
+							<h3> Cenoura fresca</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-8.png" alt="">
+							<h3> Limão fresco</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+					
+					</div>
+				
+				</div>
+				
+			</section>
+			<!-- produtos section ends -->
+			
+			<!-- categorias section starts 51:33 -->
+			
+			<section class="categorias" id="categorias">
+			
+				<h1 class="heading"> Produtos por <span> categoria </span> </h1>
+				
+				<div class="box-container">
+				
+					<div class="box">
+						<img src="imagem/categorias/cat-1.png" alt="">
+						<h3>Vegetais</h3>
+						<p>até 45% de desconto</p>
+						<a href="#" class="btn">comprar agora</a>
+					</div>
+					
+					<div class="box">
+						<img src="imagem/categorias/cat-2.png" alt="">
+						<h3>Frutas Frescas</h3>
+						<p>até 45% de desconto</p>
+						<a href="#" class="btn">comprar agora</a>
+					</div>
+					
+					<div class="box">
+						<img src="imagem/categorias/cat-3.png" alt="">
+						<h3>Lacticíneos</h3>
+						<p>até 45% de desconto</p>
+						<a href="#" class="btn">comprar agora</a>
+					</div>
+					
+					<div class="box">
+						<img src="imagem/categorias/cat-4.png" alt="">
+						<h3>Carne Fresca</h3>
+						<p>até 45% de desconto</p>
+						<a href="#" class="btn">comprar agora</a>
+					</div>
+				
+				</div>
+			
+			</section>
+			
+			<!-- categorias section ends -->
+			
+			<!-- review section starts -->
+			
+			<section class="review" id="review">
+			
+				<h1 class="heading"> Avaliações dos <span> clientes </span> </h1>
+				
+				<div class="review-slider">
+					<div class="wrapper">
+						<div class="box">
+							<img src="imagem/clientes/pic-1.png" alt="">
+							<p> Devia ter conhecido a Hortifrute antes! Ótimos alimentos para revenda na minha mercearia.Só recebo elogios dos meus clientes. </p>
+							<h3> Nataly Alcantara </h3>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/clientes/pic-2.png" alt="">
+							<p> Me impressionei com a rapidez da entrega. Virei um fã da marca. </p>
+							<h3> Jean Smith </h3>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/clientes/pic-3.png" alt="">
+							<p> Consegui economizar muito na compra de atacado. Fora que a qualidade dos produtos realmente me impressionou. </p>
+							<h3> John Maxwell </h3>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/clientes/pic-4.png" alt="">
+							<p> Os alimentos chegaram em perfeito estado e ótimo custo beneficio </p>
+							<h3> Gabriela Oliveira </h3>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			
+			</section>
+			
+			<!-- review section ends -->
+			
+			<!-- blogs section starts -->
+			
+			<section class="blogs" id="blogs">
+			
+				<h1 class="heading"> Nossos <span> blogs </span> </h1>
+				
+				<div class="box-container">
+					<div class="box">
+						<img src="imagem/blogs/blog-1.png" alt="">
+						<div class="content">
+							<div class="icons">
+								<a href="#"> <i class="fas fa-user"></i> por usuário </a>
+								<a href="#"> <i class="fas fa-calendar"></i> 31 de outubro, 2023 </a>
+							</div>
+							<h3>5 Mitos sobre a alimentação saudável</h3>
+							<p>Muitas das vezes acreditamos nos "ditos populares", mas nem sempre eles são verdadeiros. Descubra nesse artigo... </p>
+							<a href="#" class="btn">Mais informações</a>
+						</div>
+					</div>
+					
+					<div class="box">
+						<img src="imagem/blogs/blog-2.png" alt="">
+						<div class="content">
+							<div class="icons">
+								<a href="#"> <i class="fas fa-user"></i> por usuário </a>
+								<a href="#"> <i class="fas fa-calendar"></i> 31 de outubro, 2023 </a>
+							</div>
+							<h3>A importância de consumir boas gorduras</h3>
+							<p>Você sabia que nem toda gorura é prejudial a saúde?</p>
+							<a href="#" class="btn">Mais informações</a>
+						</div>
+					</div>
+					
+					<div class="box">
+						<img src="imagem/blogs/blog-3.png" alt="">
+						<div class="content">
+							<div class="icons">
+								<a href="#"> <i class="fas fa-user"></i> por usuário </a>
+								<a href="#"> <i class="fas fa-calendar"></i> 31 de outubro, 2023 </a>
+							</div>
+							<h3>Dieta - Erros que você pode evitar</h3>
+							<p>As pessoas acham pelo senso comum que a dieta é sinônimo de comer menos</p>
+							<a href="#" class="btn">Mais informações</a>
+						</div>
+					</div>
+					
+				</div>
+			
+			</section>
+			
+			<!-- blogs section ends -->
+			
+			<!-- footer section starts -->
+			
+			<section class="footer" id="footer">
+			
+				<div class="box-container">
+				
+					<div class="box">
+						<h3> Hortifrute <i class="fas fa-shopping-basket"></i> </h3>
+						<p>Siga-nos nas redes sociais</p>
+						<div class="share">
+							<a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+							<a href="https://twitter.com/" class="fab fa-twitter"></a>
+							<a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+							<a href="https://www.linkedin.com/hp" class="fab fa-linkedin"></a>							
+						</div>
+					</div>
+					
+					<div class="box">
+							<h3> Informações de contato </h3>
+							<a href="#" class="links"> <i class="fas fa-phone"></i> +55-13-99747-5787 </a>
+							<a href="#" class="links"> <i class="fas fa-phone"></i> +55-13-99787-6122 </a>
+							<a href="#" class="links"> <i class="fas fa-envelope"></i> hortifrute@gmail.com </a>
+							<a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> São Paulo, Brasil - 02675-031 </a>
+					</div>
+					
+					<div class="box">
+						<h3> Links Rápidos </h3>
+						<a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+						<a href="#recursos" class="links"> <i class="fas fa-arrow-right"></i> recursos </a>
+						<a href="#produtos" class="links"> <i class="fas fa-arrow-right"></i> produtos </a>
+						<a href="#categorias" class="links"> <i class="fas fa-arrow-right"></i> categorias </a>
+						<a href="#review" class="links"> <i class="fas fa-arrow-right"></i> avaliações </a>
+						<a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>						
+					</div>
+					
+					<div class="box">
+						<h3> Notícias </h3>
+						<p> Inscreva-se para receber as últimas atualizações </p>
+						<input type="email" placeholder="seu e-mail" class="email">
+						<input type="submit" value="inscreva-se" class="btn">
+						<img src="imagem/recursos/payment.png" class="payment-img" alt="">
+					</div>
+					
+				</div>
+				
+				<div class="credit"> Criado por <span> Guilherme Duarte </span> todos os direitos reservados </div>
+			
+			</section>
+			
+			<!-- footer section ends -->
+			
+        </main>
+        <footer>
+        
+        </footer>
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>

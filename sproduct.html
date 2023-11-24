@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keyword" content="">
+        <meta name="author" content="">
+        
+        <title>Shop</title>
+
+ 
+
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+        <link rel="stylesheet" href="css/mobile.css" type="text/css" media="all">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" >
+        
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Hortifrute</a>
+            <nav class="navbar">
+                <a href="index.html #home">    Home        </a>
+                <a href="index.html #recursos">Recursos</a>
+                <a href="index.html #produtos">Produtos    </a>
+                <a href="index.html #categorias">Categorias</a>
+                <a href="index.html #review">Avaliações</a>
+                <a href="index.html #blogs">    Blogs        </a>
+				<a href="index.html #footer">    Contato        </a>
+            </nav>
+            <div class="icons">
+                <div class="fas fa-bars"     id="menu-btn"></div>
+                <div class="fas fa-search"     id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-user"     id="login-btn"></div>
+				</div>
+            <form method="post" action="busca.php" class="search-form">
+                <input name="busca" type="search" id="search-box" 
+                placeholder="pesquise aqui ...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="shopping-cart">
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="imagem/melancia.png"  alt="Melancia">
+                    <div class="content">
+                        <h3>Melancia</h3>
+                        <span class="preco">R$ 14,99 -</span>
+                        <span class="quantidade">qtd : 1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="imagem/melancia.png" alt="Melancia">
+                    <div class="content">
+                        <h3>Melancia</h3>
+                        <span class="preco">R$ 14,99 -</span>
+                        <span class="quantidade">qtd : 1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="imagem/melancia.png" alt="Melancia">
+                    <div class="content">
+                        <h3>Melancia</h3>
+                        <span class="preco">R$ 14,99 -</span>
+                        <span class="quantidade">qtd : 1</span>
+                    </div>
+                </div>
+                <br>
+                <div class="total">Total: 45,00</div>
+                <a href="#" class="btn">Finalizar compra</a>
+            </div>
+            <form method="post" action="login.php" class="login-form">
+                <h3>Área de login</h3>
+                <input type="email" name="_login" 
+                placeholder="Digite seu e-mail" class="box" required>
+                <input type="senha" name="_senha" 
+                placeholder="Digite sua senha" class="box" required>
+                <p>Esqueceu a senha? <a href="redefinir.html"> Clique Aqui</a></p>
+                <p>Não tem uma conta? <a href="cadastro.html"> Criar Agora</a></p>
+                <input type="submit" value="Enviar" class="btn">
+                <input type="cancel" value="Cancelar" class="btn">
+            </form> 			
+        </header>
+        <main>
+        <!-- Header scetion ends -->
+			
+			<!-- Page-header section starts -->
+			
+			<section id="page-header">
+				<h2>#Stayhome</h2>
+				<p>Save more with coupons & up to 70% off!</p>
+			</section>
+			
+			<!-- Page-header section ends -->
+			
+			<!-- Product details starts 22:01 https://www.youtube.com/watch?v=99muDSuP55s&list=PL9bD98LkBR7P8MYh0RzNSHgeVNTA8g0nB&index=3 -->
+			
+			<section id="prodetails" class="section-p1">
+			
+				<div class="single-pro-image">
+					<img src="imagem/produtos/produto-1.png" width="100%" id="MainImg" alt="">
+					<div class="small-img-group">
+						<div class="small-img-col">
+							<img src="imagem/detalhes/produto-f1.png" width="100%" class="small-img" alt="">
+						</div>
+						<div class="small-img-col">
+							<img src="imagem/detalhes/produto-f2.png" width="100%" class="small-img" alt="">
+						</div>
+						<div class="small-img-col">
+							<img src="imagem/detalhes/produto-f3.png" width="100%" class="small-img" alt="">
+						</div>
+					</div>
+				</div>
+				
+				<div class="single-pro-details">
+					<h6>Home / T-Shirt </h6>
+					<h4> Men's Fashion T Shirt</h4>
+					<h2> R$ 139,00</h2>
+					<select>
+						<option>Select Size</option>
+						<option>XL</option>
+						<option>XXL</option>
+						<option>Small</option>
+						<option>Large</option>
+					</select>
+					<input type="number" value="1">
+					<button>Add To Cart</button>
+					<h4>Product Details</h4>
+					<span>conjunto das palavras escritas, em livro, folheto, documento etc. (p.opos. a comentários, aditamentos, sumário etc.); redação original de qualquer obra escrita.</span>
+				</div>
+			
+			</section>
+			
+			<!-- Product details ends -->
+			
+			<!-- produtos section starts -->
+			
+			<section class="produtos" id="produtos">
+			
+				<h1 class="heading"> Nossos <span> produtos </span> </h1>
+				
+				<div class="product-slider">
+				
+					<div class="wrapper">
+					
+						<div class="box">
+							<img src="imagem/produtos/produto-1.png" alt="">
+							<h3> Laranja fresca</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-2.png" alt="">
+							<h3> Cebola fresca</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-3.png" alt="">
+							<h3> Carne fresca</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-4.png" alt="">
+							<h3> Repolho fresco</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+					
+					</div>
+				
+				</div>
+				
+				<div class="product-slider">
+				
+					<div class="wrapper">
+					
+						<div class="box">
+							<img src="imagem/produtos/produto-5.png" alt="">
+							<h3> Batata fresca</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-6.png" alt="">
+							<h3> Abacate fresco </h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-7.png" alt="">
+							<h3> Cenoura fresca</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+						
+						<div class="box">
+							<img src="imagem/produtos/produto-8.png" alt="">
+							<h3> Limão fresco</h3>
+							<div class="price"> R$4,99/- - 10,99/- </div>
+							<div class="stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</div>
+							<a href="#" class="btn">Adicionar no carrinho</a>
+						</div>
+					
+					</div>
+				
+				</div>
+				
+			</section>
+			<!-- produtos section ends -->
+						
+			<!-- footer section starts -->
+			
+			<section class="footer" id="footer">
+			
+				<div class="box-container">
+				
+					<div class="box">
+						<h3> Hortifrute <i class="fas fa-shopping-basket"></i> </h3>
+						<p>Siga-nos nas redes sociais</p>
+						<div class="share">
+							<a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+							<a href="https://twitter.com/" class="fab fa-twitter"></a>
+							<a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+							<a href="https://www.linkedin.com/hp" class="fab fa-linkedin"></a>							
+						</div>
+					</div>
+					
+					<div class="box">
+							<h3> Informações de contato </h3>
+							<a href="#" class="links"> <i class="fas fa-phone"></i> +55-13-99747-5787 </a>
+							<a href="#" class="links"> <i class="fas fa-phone"></i> +55-13-99787-6122 </a>
+							<a href="#" class="links"> <i class="fas fa-envelope"></i> hortifrute@gmail.com </a>
+							<a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> São Paulo, Brasil - 02675-031 </a>
+					</div>
+					
+					<div class="box">
+						<h3> Links Rápidos </h3>
+						<a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+						<a href="#recursos" class="links"> <i class="fas fa-arrow-right"></i> recursos </a>
+						<a href="#produtos" class="links"> <i class="fas fa-arrow-right"></i> produtos </a>
+						<a href="#categorias" class="links"> <i class="fas fa-arrow-right"></i> categorias </a>
+						<a href="#review" class="links"> <i class="fas fa-arrow-right"></i> avaliações </a>
+						<a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>						
+					</div>
+					
+					<div class="box">
+						<h3> Notícias </h3>
+						<p> Inscreva-se para receber as últimas atualizações </p>
+						<input type="email" placeholder="seu e-mail" class="email">
+						<input type="submit" value="inscreva-se" class="btn">
+						<img src="imagem/payment.png" class="payment-img" alt="">
+					</div>
+					
+				</div>
+				
+				<div class="credit"> Criado por <span> Guilherme Duarte </span> todos os direitos reservados </div>
+			
+			</section>
+			
+			<!-- footer section ends -->
+			
+        </main>
+        <footer>
+        
+        </footer>
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>
