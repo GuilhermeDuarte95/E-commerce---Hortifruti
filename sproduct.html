@@ -20,7 +20,7 @@
     </head>
     <body>
         <header>
-            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Hortifrute</a>
+            <a href="index.html #home" class="logo"><i class="fas fa-shopping-basket"></i>Hortifrute</a>
             <nav class="navbar">
                 <a href="index.html #home">    Home        </a>
                 <a href="index.html #recursos">Recursos</a>
@@ -105,30 +105,28 @@
 					<img src="imagem/produtos/produto-1.png" width="100%" id="MainImg" alt="">
 					<div class="small-img-group">
 						<div class="small-img-col">
-							<img src="imagem/detalhes/produto-f1.png" width="100%" class="small-img" alt="">
+							<img src="imagem/detalhes/produto-f1.png" width="100%" class="small-img" alt="Laranja Pera">
 						</div>
 						<div class="small-img-col">
-							<img src="imagem/detalhes/produto-f2.png" width="100%" class="small-img" alt="">
+							<img src="imagem/detalhes/produto-f2.png" width="100%" class="small-img" alt="Laranja Serra">
 						</div>
 						<div class="small-img-col">
-							<img src="imagem/detalhes/produto-f3.png" width="100%" class="small-img" alt="">
+							<img src="imagem/detalhes/produto-f3.png" width="100%" class="small-img" alt="Laranja Bahia">
 						</div>
 					</div>
 				</div>
 				
 				<div class="single-pro-details">
-					<h6>Home / T-Shirt </h6>
-					<h4> Men's Fashion T Shirt</h4>
+					<h4>Laranja</h4>
 					<h2> R$ 139,00</h2>
 					<select>
-						<option>Select Size</option>
-						<option>XL</option>
-						<option>XXL</option>
-						<option>Small</option>
-						<option>Large</option>
+						<option>Selecione o tipo</option>
+						<option>Laranja Pera</option>
+						<option>Laranja Serra</option>
+						<option>Laranja Bahia</option>
 					</select>
 					<input type="number" value="1">
-					<button>Add To Cart</button>
+					<button class="normal">Add To Cart</button>
 					<h4>Product Details</h4>
 					<span>conjunto das palavras escritas, em livro, folheto, documento etc. (p.opos. a comentários, aditamentos, sumário etc.); redação original de qualquer obra escrita.</span>
 				</div>
@@ -141,7 +139,7 @@
 			
 			<section class="produtos" id="produtos">
 			
-				<h1 class="heading"> Nossos <span> produtos </span> </h1>
+				<h1 class="heading"> Produtos <span> destaques </span> </h1>
 				
 				<div class="product-slider">
 				
@@ -329,6 +327,21 @@
         <footer>
         
         </footer>
+		
+		<script>
+			var MainImg = document.getElementById("MainImg");
+			var smallimg = document.getElementsByClassName("small-img");
+
+			smallimg[0].onclick = function(){
+				MainImg.src = smallimg[0].src;
+			}
+			smallimg[1].onclick = function(){
+				MainImg.src = smallimg[1].src;
+			}
+			smallimg[2].onclick = function(){
+				MainImg.src = smallimg[2].src;
+			}
+		</script>
         <script src="js/script.js" type="text/javascript"></script>
     </body>
 </html>
