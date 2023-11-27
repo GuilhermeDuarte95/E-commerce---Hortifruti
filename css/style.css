@@ -811,10 +811,16 @@ header .login-form input{
 	/* 10rem; */
 }
 
-#page-header h2,
+#page-header h2{
+	color: #fff;
+	font-size: 18px;
+	padding-top: 8rem;
+}
+
 #page-header p{
 	color: #fff;
 	font-size: 18px;
+	
 }
 
 /* Fim Page - Header */
@@ -831,13 +837,18 @@ header .login-form input{
 	margin-right: 50px;
 }
 
+#prodetails .single-pro-image img{
+	background: #fff;
+	border: var(--border);
+}
+
 .small-img-group{
 	display: flex;
 	justify-content: space-between;
 }
 
 .small-img-col{
-	flex-basis: 24%;
+	flex-basis: 33%;
 	cursor: pointer;
 }
 
@@ -848,10 +859,48 @@ header .login-form input{
 
 #prodetails .single-pro-details h4{
 	padding: 40px 0 20px 0;
+	font-size: 20px;
 }
 
 #prodetails .single-pro-details h2{
 	font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+	display: block;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+	width: 50px;
+	height: 47px;
+	padding-left: 10px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+#prodetails .single-pro-details:focus{
+	outline: none;
+	
+}
+
+#prodetails .single-pro-details button{
+	background: var(--orange);
+	color: #fff;	
+	border-radius: .5rem;
+	text-align: center;
+	padding: 10px 5px;
+	outline-offset: -1rem;
+	outline: var(--outline);
+	box-shadow: var(--box-shadow);
+	transition: .2s linear;
+}
+
+#prodetails .single-pro-details span{
+	line-height: 25px;
+	font-size: 18px;
+	
 }
 
 /* Fim Single Product */
