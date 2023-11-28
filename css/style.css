@@ -866,6 +866,10 @@ header .login-form input{
 	font-size: 26px;
 }
 
+#prodetails .single-pro-details h6{
+	font-size: 12px;
+}
+
 #prodetails .single-pro-details select{
 	display: block;
 	padding: 5px 10px;
