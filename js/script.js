@@ -17,6 +17,13 @@ document.querySelector('#cart-btn').onclick = () =>{
 	navbar.classList.remove('active');
 }
 
+//document.querySelector('#add-cart').onclick = () =>{
+	//shoppingCart.classList.toggle('active');
+	//searchForm.classList.remove('active');
+	//loginForm.classList.remove('active');
+	//navbar.classList.remove('active');
+//}
+
 document.querySelector('#login-btn').onclick = () =>{
 	loginForm.classList.toggle('active');
 	searchForm.classList.remove('active');
